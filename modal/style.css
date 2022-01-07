@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("./media/background.jpg");
+  background-repeat: no-repeat;
+}
+
+.pad {
+  padding: 5px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.pad2 {
+  padding: 3px 5px;
+}
+
+.btnModal {
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  z-index: -1;
+}
+
+.btn {
+  padding: 3px 10px;
+  margin-top: 10px;
+  background-color: #121149;
+  border-radius: 5px;
+  color: aliceblue;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #0e59a3;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 15px #a8a7a7;
+          box-shadow: 5px 5px 15px #a8a7a7;
+}
+
+.modal {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal .modalPanel {
+  width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #273b7a;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px #7e7c7c;
+          box-shadow: 5px 5px 15px #7e7c7c;
+  padding: 10px;
+}
+
+.modal .modalPanel img {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
