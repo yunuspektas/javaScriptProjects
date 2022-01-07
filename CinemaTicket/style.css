@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #334242;
+}
+
+.container {
+  margin: 40px auto;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 3fr 1.2fr 2.2fr;
+      grid-template-rows: 1fr 3fr 1.2fr 2.2fr;
+  -ms-grid-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+      grid-template-areas: "screen screen screen" "leftSide middle rightSide" "info info info" "info2 info2 info2";
+}
+
+.container .screen {
+  height: 200px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: screen;
+  background-color: #ccd8d8;
+  border-radius: 7px;
+  margin: 0px 15px 10px 15px;
+}
+
+.container .leftSide {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  -ms-grid-columns: 30px 30px;
+      grid-template-columns: 30px 30px;
+  -ms-grid-rows: (30px)[5];
+      grid-template-rows: repeat(5, 30px);
+  grid-gap: 5px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: leftSide;
+}
+
+.container .middle {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  -ms-grid-columns: (30px)[10];
+      grid-template-columns: repeat(10, 30px);
+  -ms-grid-rows: (30px)[5];
+      grid-template-rows: repeat(5, 30px);
+  grid-gap: 5px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: middle;
+}
+
+.container .rightSide {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  -ms-grid-columns: 30px 30px;
+      grid-template-columns: 30px 30px;
+  -ms-grid-rows: (30px)[5];
+      grid-template-rows: repeat(5, 30px);
+  grid-gap: 5px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: rightSide;
+}
+
+.container .info {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: info;
+  margin: 0 auto;
+}
+
+.container .btn {
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.container #btnPay {
+  background-color: green;
+}
+
+.container #btnReject {
+  background-color: red;
+}
+
+.container .info2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: info2;
+}
+
+.container .seat {
+  text-align: center;
+  line-height: 30px;
+  margin: auto;
+}
+
+.container .btnSeat {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.container .txt {
+  color: whitesmoke;
+}
+
+.container .txtRed {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
