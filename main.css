@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #494949;
+}
+
+body h1 {
+  color: aliceblue;
+  margin-top: 40px;
+}
+
+body .container .noteWrite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vh;
+  margin: auto;
+  margin-top: 20px;
+}
+
+body .container .noteWrite .btnAdd {
+  margin-left: 10px;
+  border-radius: 3px;
+  width: 100px;
+  padding: 7px;
+  font-size: larger;
+  color: aliceblue;
+  background-color: darkcyan;
+}
+
+body .container .noteWrite input {
+  padding: 10px;
+  width: 400px;
+}
+
+body .container .noteList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+body .container .noteList .note {
+  position: relative;
+  text-indent: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 40px;
+  height: 40px;
+  width: 710px;
+  margin: 5px auto;
+  border-radius: 5px;
+  background-color: lightslategrey;
+}
+
+body .container .noteList .note .delete {
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  background-color: red;
+  color: aliceblue;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */
