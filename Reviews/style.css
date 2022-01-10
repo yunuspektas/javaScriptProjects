@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ecef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #0d283f;
+  margin: auto;
+  margin-bottom: 40px;
+  border-bottom: #4ca6ea 4px solid;
+}
+
+.container {
+  padding-top: 20px;
+  height: 600px;
+  width: 700px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 10px 18px #888888;
+          box-shadow: 5px 10px 18px #888888;
+}
+
+.container .avatar {
+  margin-top: 20px;
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  background-image: url("./media/index.png");
+  background-repeat: no-repeat;
+}
+
+.container .nameSurname {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.container .job {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7eb4ea;
+}
+
+.container .info {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  width: 670px;
+  margin: auto;
+  color: #5a7f9d;
+}
+
+.container .icons {
+  padding-top: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.container .icons .goForward {
+  padding-left: 20px;
+}
+
+.container span {
+  color: #8ecbf8;
+  font-size: 25px;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  margin: auto;
+}
+
+.container .btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.container .btn .btnSupriseMe {
+  padding: 5px;
+  border-radius: 8px;
+  border-color: aqua;
+  color: #2a5353;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
