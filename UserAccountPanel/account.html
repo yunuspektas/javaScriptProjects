@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Account Panel</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form class="form">
+      <label class="text" for="name1">User Name :</label><br />
+      <input type="text" id="name1" name="fname" value="user1" /><br />
+      <label for="passWord">Password :</label><br />
+      <input
+        class="text"
+        type="password"
+        id="passWord"
+        value="password1"
+        name="fPassWord"
+      /><br />
+      <br />
+      <a href="#">Sign Up..</a>
+      <input type="submit" id="btnLogIn"  value=" Log In " />
+    </form>
+
+    <script src="script.js">
+      /**function git() {
+     
+
+        var btnLogIn = document.getElementById("btnLogIn");
+
+        var accounts = [
+          {
+            username: "user1",
+            password: "password1",
+          },
+          {
+            username: "user2",
+            password: "password2",
+          },
+        ];
+        var txtName1 = document.getElementById("name1").value;
+        var txtPassWord = document.getElementById("passWord").value;
+        var pass = false;
+        for (let i = 0; i < accounts.length; i++) {
+          if (accounts[i].username == txtName1) {
+            if (accounts[i].password == txtPassWord) {
+              window.location = "welcome.html";
+              alert("");
+              pass = true;
+              
+            }
+          }
+          if (pass == false) alert("User Name or Password is wrong");
+        } 
+      }**/
+    </script>
+  </body>
+</html>
